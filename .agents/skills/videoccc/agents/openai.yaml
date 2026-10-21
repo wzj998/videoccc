@@ -1,0 +1,4 @@
+interface:
+  display_name: "VideoCCC"
+  short_description: "双 Agent 从需求制作分镜图、代码动画、本地配音字幕与高清成片"
+  default_prompt: "使用 $videoccc 根据我的需求生成分镜图，再制作带本地配音和同步字幕的高清 30 帧视频。"

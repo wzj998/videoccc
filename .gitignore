@@ -1,0 +1,25 @@
+# All private production inputs, local settings, media, logs and model caches.
+/private/
+
+# Defensive exclusions for tools that default to these output directories.
+/output/
+/outputs/
+/artifacts/
+/frames/
+/models/
+/cache/
+/tmp/
+
+# Credentials and machine-specific runtimes are never part of this skill repo.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+*.jsonl
+.DS_Store
+Thumbs.db
